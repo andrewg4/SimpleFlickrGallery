@@ -12,6 +12,7 @@ import android.support.v4.app.Fragment;
  */
 public abstract class VisibleFragment extends Fragment {
     public static final String TAG = "VisibleFragment";
+
     private BroadcastReceiver mOnShowNotification = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
